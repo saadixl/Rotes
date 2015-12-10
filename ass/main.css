@@ -1,0 +1,39 @@
+body {
+    background: #f5f5f5;
+}
+
+code {
+    background: #333;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 5px;
+    line-height: 2;
+    display: inline-block;
+}
+
+.field{
+    padding: 20px;
+}
+.tags{
+	padding: 15px;
+}
+
+.tags {
+    word-wrap: break-word;
+}
+
+textarea.details {
+    height: 250px;
+}
+input.title{
+	height: 50px;
+	font-size: 25px;
+}
+input,textarea {
+    margin-bottom: 15px;
+    border-radius: 0 !important;
+}
+textarea.content{
+	height: 250px;
+}
