@@ -9,7 +9,7 @@ body {
 code {
     position: relative;
     width: 19%;
-    background: #333;
+    background: #222;
     color: white;
     font-size: 17px;
     cursor: pointer;
@@ -65,4 +65,8 @@ p {
 
 .navbar-right {
     margin-right: 6px;
+}
+
+.navbar-brand {
+    margin-left: -12px !important;
 }
