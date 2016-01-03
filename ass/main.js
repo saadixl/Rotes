@@ -70,3 +70,7 @@ $('.clear').click(function(){
 	$('.tags').empty();
 	localStorage.clear();
 });
+
+$('.tognote').click(function(){
+    $('.tags span').toggle();
+});

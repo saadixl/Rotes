@@ -49,6 +49,11 @@ input,textarea {
     bottom: 0;
     right: 0;
 }
+.tognote{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
 p{
     margin-bottom: 0;
 }
