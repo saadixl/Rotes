@@ -71,6 +71,14 @@ $('.clear').click(function(){
 	localStorage.clear();
 });
 
-$('.tognote').click(function(){
-    $('.tags span').toggle();
+$('.showall').click(function(){
+    $('.tags span').each(function(){
+        $(this).show();
+    });
+});
+
+$('.hideall').click(function(){
+    $('.tags span').each(function(){
+        $(this).hide();
+    });
 });
